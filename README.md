@@ -1,2 +1,2 @@
 # To-Do-List
-im making To-Do List using Python and Django 
+Im making To-Do List using Python and Django 
