@@ -1,1 +1,1 @@
-web: gunicorn MyTODO.wsgi
+web: gunicorn MyTODO.wsgi:application

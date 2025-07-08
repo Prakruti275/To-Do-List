@@ -8,9 +8,8 @@ TEMPLATE_DIR = BASE_DIR / 'templates'
 SECRET_KEY = 'django-insecure-zw*-fgen7)g!8c-*+b5w#@qlrx61-+$wvlat&(!wjcss9kl!ya'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True  # ✅ Keep this True for development
+DEBUG = False # ✅ Keep this True for development
 
-ALLOWED_HOSTS = []  # ✅ Leave empty for local development (or use ['127.0.0.1', 'localhost'] for DEBUG=False)
 
 
 # Application definition
@@ -97,3 +96,4 @@ STATIC_URL = 'static/'
 
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost','.onrender.com' ]
